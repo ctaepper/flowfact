@@ -2,7 +2,7 @@ var _ = require('underscore');
 
 var defaults = {
 	task: 'release.version',
-	glob: ['./package.json', './bower.json'],
+	glob: ['./package.json'],
 	origin: 'origin',
 	branch: 'master'
 };
