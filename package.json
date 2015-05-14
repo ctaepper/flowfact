@@ -1,0 +1,25 @@
+{
+  "name": "node-flowfact",
+  "version": "0.0.1",
+  "description": "node.js connector to Flowfact REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctaepper/node-flowfact.git"
+  },
+  "keywords": [
+    "flowfact",
+    "openimmo",
+    "rest",
+    "api"
+  ],
+  "author": "Christian Taepper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctaepper/node-flowfact/issues"
+  },
+  "homepage": "https://github.com/ctaepper/node-flowfact#readme"
+}
