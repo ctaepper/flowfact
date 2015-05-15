@@ -1,0 +1,11 @@
+test
+node_modules
+gulp
+gulpfile.js
+.env
+circle.yml
+Makefile
+.jshintrc
+.jshintignore
+.editorconfig
+
