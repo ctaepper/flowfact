@@ -112,9 +112,31 @@ flowfact.getCompanyQuota().then(function (quota) {
 })
 ```
 
+#### Estate methods
+
+##### getEstates(userId)
+Fetch a list of estates by userId.
+```js
+flowfact.getEstates('176743-B36562A-5254292CF').then(function (quota) {
+	// do something with estate list
+}, function (err) {
+	// handle error
+})
+```
+
+##### getEstate(userId, estateId)
+Fetch details of estate.
+```js
+flowfact.getEstate('176743-B36562A-5254292CF', '8798ABD-5263474-0773CC3').then(function (quota) {
+	// do something with estate list
+}, function (err) {
+	// handle error
+})
+```
+
 ### Tests
 
-Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assumes environment variable `FLOWFACT_URL` is availible.
+Tests are run by mocha. They assume environment variable `FLOWFACT_URL` to be availible.
 ```bash
 $ make test
 ``` 
