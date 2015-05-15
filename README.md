@@ -1,6 +1,5 @@
 # flowfact - a node.js interface to the Flowfact API
 
-
 [![NPM](https://nodei.co/npm/flowfact.png?downloads=true&stars=true)](https://nodei.co/npm/flowfact/)  
 
 
@@ -10,4 +9,11 @@
 
 ```bash
 $ npm install flowfact
+```
+
+## Settings
+
+Flowfact API authentication is currently done via environment variable
+```
+FLOWFACT_URL=flowfact://username:password@contractId
 ```
