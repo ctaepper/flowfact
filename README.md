@@ -114,7 +114,7 @@ flowfact.getCompanyQuota().then(function (quota) {
 
 ### Tests
 
-Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assumes environment variable `FLOWFACT_URL` to be availible.
+Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assumes environment variable `FLOWFACT_URL` is availible.
 ```bash
 $ make test
 ``` 
