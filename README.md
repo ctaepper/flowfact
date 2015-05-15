@@ -7,9 +7,7 @@
 
 ## About 
 
-```bash
-$ npm install flowfact
-```
+Connect to the [Flowfact REST API](http://api.flowfact.de)  with node.js
 
 ## Usage
 
