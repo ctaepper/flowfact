@@ -9,6 +9,17 @@
 
 Connect to the [Flowfact REST API](http://api.flowfact.de)  with node.js
 
+Table of contents
+- [Usage](#usage)
+	- [Installation](#installation)
+	- [Example](#example)
+	- [API](#api)
+		- [User methods](#user-methods)
+		- [Company methods](#company-methods)
+	- [Tests](#tests)
+- [Contribute](#contribute)	
+- [License](#license)
+
 ## Usage
 
 ### Installation
@@ -108,6 +119,10 @@ Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assum
 $ make test
 ``` 
 
+## Contribute
+
+Feel free to fork and pullrequest the hell out of this project :)
+Make sure all tests pass, or else...
 
 ## License
 
