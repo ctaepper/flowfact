@@ -1,5 +1,5 @@
 {
-  "name": "node-flowfact",
+  "name": "flowfact",
   "version": "0.1.0",
   "description": "node.js connector to Flowfact REST API",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctaepper/node-flowfact.git"
+    "url": "git+https://github.com/ctaepper/flowfact.git"
   },
   "keywords": [
     "flowfact",
@@ -19,9 +19,9 @@
   "author": "Christian Taepper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ctaepper/node-flowfact/issues"
+    "url": "https://github.com/ctaepper/flowfact/issues"
   },
-  "homepage": "https://github.com/ctaepper/node-flowfact#readme",
+  "homepage": "https://github.com/ctaepper/flowfact#readme",
   "devDependencies": {
     "async": "^0.9.0",
     "del": "^1.1.1",
