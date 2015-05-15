@@ -5,18 +5,36 @@
 
 [![Circle CI](https://circleci.com/gh/ctaepper/flowfact/tree/master.svg?style=svg)](https://circleci.com/gh/ctaepper/flowfact/tree/master) [![Dependency Status](https://david-dm.org/ctaepper/flowfact.svg)](https://david-dm.org/ctaepper/flowfact)
 
-## Installation 
+## About 
 
 ```bash
 $ npm install flowfact
 ```
 
-## Settings
+## Usage
 
-Flowfact API authentication is currently done via environment variable
+### Installation
+
+```bash
+$ npm install flowfact
+```
+
+In order to authenticate, set the following environment variable
+
 ```
 FLOWFACT_URL=flowfact://username:password@contractId
 ```
+
+### Example
+
+```js
+var flowfact = require('flowfact')();
+
+flowfact.getUsers().then(function (userlist) {
+	...
+)}
+```
+
 
 
 ## License
