@@ -29,10 +29,52 @@ FLOWFACT_URL=flowfact://username:password@contractId
 var flowfact = require('flowfact')();
 
 flowfact.getUsers().then(function (userlist) {
-	...
+	// do something with userlist
 )}
 ```
 
+### API
+
+All methods return promises, so handle them accordingly.
+
+#### User
+
+##### getUsers
+```js
+flowfact.getUsers().then(function (userlist) {
+	// do something with userlist
+}, function (err) {
+	// handle error
+})
+```
+
+##### getUser
+```js
+var userId = '123456789';
+flowfact.getUser(userId).then(function (user) {
+	// do something with user
+}, function (err) {
+	// handle error
+})
+```
+
+#### Company
+
+##### getCompany
+```js
+flowfact.getCompany().then(function (company) {
+	// do something with company
+}, function (err) {
+	// handle error
+})
+```
+
+### Tests
+
+Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assumes environment variable `FLOWFACT_URL` to be set.
+```bash
+$ make test
+``` 
 
 
 ## License
