@@ -50,7 +50,7 @@ flowfact.getUsers().then(function (userlist) {
 ```
 
 ##### getUser(userId)
-Fetches the user with id userId. 
+Fetch the user with id userId. 
 ```js
 flowfact.getUser('176743-B36562A-5254292CF').then(function (user) {
 	// do something with user
@@ -60,7 +60,7 @@ flowfact.getUser('176743-B36562A-5254292CF').then(function (user) {
 ```
 
 ##### getUserContacts(userId)
-Fetches a list of contacts for user with id userId. 
+Fetch a list of contacts for user with id userId. 
 ```js
 flowfact.getUserContacts('176743-B36562A-5254292CF').then(function (contacts) {
 	// do something with contacts
@@ -70,7 +70,7 @@ flowfact.getUserContacts('176743-B36562A-5254292CF').then(function (contacts) {
 ```
 
 ##### getUserActivities(userId)
-Fetches a list of activities for user with id userId. 
+Fetch a list of activities for user with id userId. 
 ```js
 flowfact.getUserActivities('176743-B36562A-5254292CF').then(function (contacts) {
 	// do something with contacts
