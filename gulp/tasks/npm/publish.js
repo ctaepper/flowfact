@@ -9,7 +9,6 @@ module.exports = function (gulp, config) {
 
 	gulp.task(c.task, function (cb) {
 		var run = require('gulp-run');
-		var gutil = require('gulp-util');
 
 		var publish = new run.Command('npm publish', {verbosity: 1});
 		publish.exec(function (err) {

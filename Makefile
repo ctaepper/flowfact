@@ -1,8 +1,10 @@
 install:
 	@npm install
 
-test:
+syntaxtest:
 	@./node_modules/.bin/jshint .
+
+test: syntaxtest
 	@./node_modules/.bin/mocha ./test/test.js
 
-.PHONY: install test
+.PHONY: install syntaxtest test

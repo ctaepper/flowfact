@@ -2,7 +2,7 @@ var should = require('should');
 var flowfact = require('../index')();
 
 describe('User methods', function() {
-	it('should list availible users', function (done) {
+	it('should fetch availible users', function (done) {
 		flowfact
 			.getUsers()
 			.then(function (res) {
@@ -12,7 +12,7 @@ describe('User methods', function() {
 			});
 	});
 
-	it('should list user details', function (done) {
+	it('should fetch user details', function (done) {
 		flowfact
 			.getUser('10000200-0000-4012-0018-00001B3B30F6')
 			.then(function (res) {
