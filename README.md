@@ -35,11 +35,12 @@ flowfact.getUsers().then(function (userlist) {
 
 ### API
 
-All methods return promises, so handle them accordingly.
+All methods return promises, handle them accordingly.
 
-#### User
+#### User methods
 
-##### getUsers
+##### getUsers()
+Fetch a list of availible users.
 ```js
 flowfact.getUsers().then(function (userlist) {
 	// do something with userlist
@@ -48,19 +49,40 @@ flowfact.getUsers().then(function (userlist) {
 })
 ```
 
-##### getUser
+##### getUser(userId)
+Fetches the user with id userId. 
 ```js
-var userId = '123456789';
-flowfact.getUser(userId).then(function (user) {
+flowfact.getUser('176743-B36562A-5254292CF').then(function (user) {
 	// do something with user
 }, function (err) {
 	// handle error
 })
 ```
 
-#### Company
+##### getUserContacts(userId)
+Fetches a list of contacts for user with id userId. 
+```js
+flowfact.getUserContacts('176743-B36562A-5254292CF').then(function (contacts) {
+	// do something with contacts
+}, function (err) {
+	// handle error
+})
+```
 
-##### getCompany
+##### getUserActivities(userId)
+Fetches a list of activities for user with id userId. 
+```js
+flowfact.getUserActivities('176743-B36562A-5254292CF').then(function (contacts) {
+	// do something with contacts
+}, function (err) {
+	// handle error
+})
+```
+
+#### Company methods
+
+##### getCompany()
+Fetch company details.
 ```js
 flowfact.getCompany().then(function (company) {
 	// do something with company
@@ -69,9 +91,19 @@ flowfact.getCompany().then(function (company) {
 })
 ```
 
+##### getCompanyQuota()
+Fetch company quota information.
+```js
+flowfact.getCompanyQuota().then(function (quota) {
+	// do something with quota
+}, function (err) {
+	// handle error
+})
+```
+
 ### Tests
 
-Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assumes environment variable `FLOWFACT_URL` to be set.
+Run tests with mocha. Mocha comes preinstalled as devDependency. The tests assumes environment variable `FLOWFACT_URL` to be availible.
 ```bash
 $ make test
 ``` 
