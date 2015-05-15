@@ -9,7 +9,7 @@
 
 Connect to the [Flowfact REST API](http://api.flowfact.de)  with node.js
 
-#### Table of contents
+## Table of contents
 - [Usage](#usage)
 	- [Installation](#installation)
 	- [Example](#example)
