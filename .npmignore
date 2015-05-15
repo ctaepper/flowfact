@@ -8,4 +8,4 @@ Makefile
 .jshintrc
 .jshintignore
 .editorconfig
-
+.idea
