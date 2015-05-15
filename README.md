@@ -3,7 +3,7 @@
 [![NPM](https://nodei.co/npm/flowfact.png?downloads=true&stars=true)](https://nodei.co/npm/flowfact/)  
 
 
-[![Circle CI](https://circleci.com/gh/ctaepper/flowfact/tree/master.svg?style=svg)](https://circleci.com/gh/ctaepper/flowfact/tree/master) [![Dependency Status](https://david-dm.org/ctaepper/flowfact.svg)](https://david-dm.org/ctaepper/flowfact)
+[![Circle CI](https://circleci.com/gh/ctaepper/flowfact/tree/master.svg?style=shield)](https://circleci.com/gh/ctaepper/flowfact/tree/master) [![Dependency Status](https://david-dm.org/ctaepper/flowfact.svg)](https://david-dm.org/ctaepper/flowfact)
 
 ## About 
 
