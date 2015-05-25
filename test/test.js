@@ -45,18 +45,6 @@ describe('User methods', function() {
 				done();
 			});
 	});
-
-	// todo not authorized??
-	//it('should fetch user estates', function (done) {
-	//	flowfact
-	//		.getUserEstates()
-	//		.then(function (res) {
-	//			console.log(JSON.stringify(res));
-	//			//res.should.be.Array;
-	//			//res.length.should.be.above(0);
-	//			done();
-	//		});
-	//});
 });
 
 describe('Company methods', function() {
