@@ -83,8 +83,8 @@ flowfact.getUserContacts('176743-B36562A-5254292CF').then(function (contacts) {
 ##### getUserActivities(userId)
 Fetch a list of activities for user with id userId. 
 ```js
-flowfact.getUserActivities('176743-B36562A-5254292CF').then(function (contacts) {
-	// do something with contacts
+flowfact.getUserActivities('176743-B36562A-5254292CF').then(function (activities) {
+	// do something with activities
 }, function (err) {
 	// handle error
 })
@@ -117,7 +117,7 @@ flowfact.getCompanyQuota().then(function (quota) {
 ##### getEstates(userId)
 Fetch a list of estates by userId.
 ```js
-flowfact.getEstates('176743-B36562A-5254292CF').then(function (quota) {
+flowfact.getEstates('176743-B36562A-5254292CF').then(function (estates) {
 	// do something with estate list
 }, function (err) {
 	// handle error
@@ -127,8 +127,8 @@ flowfact.getEstates('176743-B36562A-5254292CF').then(function (quota) {
 ##### getEstate(userId, estateId)
 Fetch details of estate.
 ```js
-flowfact.getEstate('176743-B36562A-5254292CF', '8798ABD-5263474-0773CC3').then(function (quota) {
-	// do something with estate list
+flowfact.getEstate('176743-B36562A-5254292CF', '8798ABD-5263474-0773CC3').then(function (estate) {
+	// do something with estate
 }, function (err) {
 	// handle error
 })
