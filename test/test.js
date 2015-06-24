@@ -12,6 +12,8 @@ describe('User methods', function() {
 				res.should.be.Array;
 				res.length.should.be.above(0);
 				done();
+			}, function (err) {
+				done(err);
 			});
 	});
 
@@ -22,6 +24,8 @@ describe('User methods', function() {
 				res.email.should.equal('klaus.erfolg@immo-erfolg.de');
 				res.id.should.equal(demoId);
 				done();
+			}, function (err) {
+				done(err);
 			});
 	});
 
