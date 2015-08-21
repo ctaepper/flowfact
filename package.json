@@ -1,6 +1,6 @@
 {
   "name": "flowfact",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Node.js interface to the Flowfact API",
   "main": "index.js",
   "scripts": {
