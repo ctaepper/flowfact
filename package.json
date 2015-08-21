@@ -40,9 +40,10 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "coveralls": "^2.11.2",
+    "lodash": "^3.10.1",
     "mocha-lcov-reporter": "0.0.2",
     "q": "^1.4.0",
-    "request": "^2.55.0",
+    "request": "^2.61.0",
     "run-sequence": "^1.1.0",
     "underscore": "^1.8.3"
   }
