@@ -34,6 +34,9 @@ In order to authenticate, set the following environment variable
 FLOWFACT_URL=flowfact://username:password@contractId
 ```
 
+# IMPORTANT: Docs are outdated, will soon update
+
+
 ### Example
 
 ```js
